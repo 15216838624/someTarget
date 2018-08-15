@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE0ED7531F454494003EA0F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED7521F454494003EA0F6 /* main.m */; };
+		BE0ED7561F454494003EA0F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED7551F454494003EA0F6 /* AppDelegate.m */; };
+		BE0ED75C1F454494003EA0F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0ED75A1F454494003EA0F6 /* Main.storyboard */; };
+		BE0ED75E1F454494003EA0F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0ED75D1F454494003EA0F6 /* Assets.xcassets */; };
+		BE0ED7611F454494003EA0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0ED75F1F454494003EA0F6 /* LaunchScreen.storyboard */; };
+		BE0ED76C1F454495003EA0F6 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED76B1F454495003EA0F6 /* ____Tests.m */; };
+		BE0ED7771F454495003EA0F6 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED7761F454495003EA0F6 /* ____UITests.m */; };
+		BE0ED7861F4544B7003EA0F6 /* ChatviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED7851F4544B7003EA0F6 /* ChatviewController.m */; };
+		BE0ED78B1F455E1F003EA0F6 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED7881F455E1F003EA0F6 /* Message.m */; };
+		BE0ED7A51F455E29003EA0F6 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED78F1F455E29003EA0F6 /* MASCompositeConstraint.m */; };
+		BE0ED7A61F455E29003EA0F6 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED7921F455E29003EA0F6 /* MASConstraint.m */; };
+		BE0ED7A71F455E29003EA0F6 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED7941F455E29003EA0F6 /* MASConstraintMaker.m */; };
+		BE0ED7A81F455E29003EA0F6 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED7961F455E29003EA0F6 /* MASLayoutConstraint.m */; };
+		BE0ED7A91F455E29003EA0F6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED79A1F455E29003EA0F6 /* MASViewAttribute.m */; };
+		BE0ED7AA1F455E29003EA0F6 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED79C1F455E29003EA0F6 /* MASViewConstraint.m */; };
+		BE0ED7AB1F455E29003EA0F6 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED79E1F455E29003EA0F6 /* NSArray+MASAdditions.m */; };
+		BE0ED7AC1F455E29003EA0F6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED7A11F455E29003EA0F6 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		BE0ED7AD1F455E29003EA0F6 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0ED7A31F455E29003EA0F6 /* View+MASAdditions.m */; };
+		BE0ED7B51F45629C003EA0F6 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE0ED7B41F45629C003EA0F6 /* messages.plist */; };
+		BE13F6081F49CB0A00512099 /* MeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE13F6071F49CB0A00512099 /* MeCell.m */; };
+		BE13F60B1F49CB1D00512099 /* otherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE13F60A1F49CB1D00512099 /* otherCell.m */; };
+		BE14D0111F46F2EA00818EBE /* chat_send_press_pic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE14D0101F46F2EA00818EBE /* chat_send_press_pic@2x.png */; };
+		BE14D0151F471F9E00818EBE /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = BE14D0131F471F9E00818EBE /* other.png */; };
+		BE14D0171F47207D00818EBE /* m.png in Resources */ = {isa = PBXBuildFile; fileRef = BE14D0161F47207D00818EBE /* m.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE0ED7681F454495003EA0F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0ED7461F454494003EA0F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0ED74D1F454494003EA0F6;
+			remoteInfo = "聊天布局";
+		};
+		BE0ED7731F454495003EA0F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0ED7461F454494003EA0F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0ED74D1F454494003EA0F6;
+			remoteInfo = "聊天布局";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE0ED74E1F454494003EA0F6 /* 聊天布局.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "聊天布局.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0ED7521F454494003EA0F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE0ED7541F454494003EA0F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE0ED7551F454494003EA0F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE0ED75B1F454494003EA0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE0ED75D1F454494003EA0F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE0ED7601F454494003EA0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE0ED7621F454494003EA0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0ED7671F454495003EA0F6 /* 聊天布局Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "聊天布局Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0ED76B1F454495003EA0F6 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		BE0ED76D1F454495003EA0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0ED7721F454495003EA0F6 /* 聊天布局UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "聊天布局UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0ED7761F454495003EA0F6 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		BE0ED7781F454495003EA0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0ED7841F4544B7003EA0F6 /* ChatviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatviewController.h; sourceTree = "<group>"; };
+		BE0ED7851F4544B7003EA0F6 /* ChatviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatviewController.m; sourceTree = "<group>"; };
+		BE0ED7871F455E1F003EA0F6 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		BE0ED7881F455E1F003EA0F6 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		BE0ED78E1F455E29003EA0F6 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		BE0ED78F1F455E29003EA0F6 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		BE0ED7901F455E29003EA0F6 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		BE0ED7911F455E29003EA0F6 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		BE0ED7921F455E29003EA0F6 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		BE0ED7931F455E29003EA0F6 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		BE0ED7941F455E29003EA0F6 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		BE0ED7951F455E29003EA0F6 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		BE0ED7961F455E29003EA0F6 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		BE0ED7971F455E29003EA0F6 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		BE0ED7981F455E29003EA0F6 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		BE0ED7991F455E29003EA0F6 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		BE0ED79A1F455E29003EA0F6 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		BE0ED79B1F455E29003EA0F6 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		BE0ED79C1F455E29003EA0F6 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		BE0ED79D1F455E29003EA0F6 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		BE0ED79E1F455E29003EA0F6 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		BE0ED79F1F455E29003EA0F6 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BE0ED7A01F455E29003EA0F6 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		BE0ED7A11F455E29003EA0F6 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		BE0ED7A21F455E29003EA0F6 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		BE0ED7A31F455E29003EA0F6 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		BE0ED7A41F455E29003EA0F6 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BE0ED7B41F45629C003EA0F6 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		BE13F6061F49CB0A00512099 /* MeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeCell.h; sourceTree = "<group>"; };
+		BE13F6071F49CB0A00512099 /* MeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeCell.m; sourceTree = "<group>"; };
+		BE13F6091F49CB1D00512099 /* otherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = otherCell.h; sourceTree = "<group>"; };
+		BE13F60A1F49CB1D00512099 /* otherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = otherCell.m; sourceTree = "<group>"; };
+		BE14D0101F46F2EA00818EBE /* chat_send_press_pic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_send_press_pic@2x.png"; sourceTree = "<group>"; };
+		BE14D0131F471F9E00818EBE /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
+		BE14D0161F47207D00818EBE /* m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE0ED74B1F454494003EA0F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0ED7641F454495003EA0F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0ED76F1F454495003EA0F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE0ED7451F454494003EA0F6 = {
+			isa = PBXGroup;
+			children = (
+				BE0ED7501F454494003EA0F6 /* 聊天布局 */,
+				BE0ED76A1F454495003EA0F6 /* 聊天布局Tests */,
+				BE0ED7751F454495003EA0F6 /* 聊天布局UITests */,
+				BE0ED74F1F454494003EA0F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE0ED74F1F454494003EA0F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE0ED74E1F454494003EA0F6 /* 聊天布局.app */,
+				BE0ED7671F454495003EA0F6 /* 聊天布局Tests.xctest */,
+				BE0ED7721F454495003EA0F6 /* 聊天布局UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0ED7501F454494003EA0F6 /* 聊天布局 */ = {
+			isa = PBXGroup;
+			children = (
+				BE14D0161F47207D00818EBE /* m.png */,
+				BE14D0131F471F9E00818EBE /* other.png */,
+				BE0ED78D1F455E29003EA0F6 /* Masonry */,
+				BE0ED7541F454494003EA0F6 /* AppDelegate.h */,
+				BE0ED7551F454494003EA0F6 /* AppDelegate.m */,
+				BE0ED7871F455E1F003EA0F6 /* Message.h */,
+				BE0ED7881F455E1F003EA0F6 /* Message.m */,
+				BE14D0101F46F2EA00818EBE /* chat_send_press_pic@2x.png */,
+				BE0ED7B41F45629C003EA0F6 /* messages.plist */,
+				BE13F6091F49CB1D00512099 /* otherCell.h */,
+				BE13F60A1F49CB1D00512099 /* otherCell.m */,
+				BE13F6061F49CB0A00512099 /* MeCell.h */,
+				BE13F6071F49CB0A00512099 /* MeCell.m */,
+				BE0ED75A1F454494003EA0F6 /* Main.storyboard */,
+				BE0ED75D1F454494003EA0F6 /* Assets.xcassets */,
+				BE0ED75F1F454494003EA0F6 /* LaunchScreen.storyboard */,
+				BE0ED7621F454494003EA0F6 /* Info.plist */,
+				BE0ED7511F454494003EA0F6 /* Supporting Files */,
+				BE0ED7841F4544B7003EA0F6 /* ChatviewController.h */,
+				BE0ED7851F4544B7003EA0F6 /* ChatviewController.m */,
+			);
+			path = "聊天布局";
+			sourceTree = "<group>";
+		};
+		BE0ED7511F454494003EA0F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE0ED7521F454494003EA0F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE0ED76A1F454495003EA0F6 /* 聊天布局Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0ED76B1F454495003EA0F6 /* ____Tests.m */,
+				BE0ED76D1F454495003EA0F6 /* Info.plist */,
+			);
+			path = "聊天布局Tests";
+			sourceTree = "<group>";
+		};
+		BE0ED7751F454495003EA0F6 /* 聊天布局UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0ED7761F454495003EA0F6 /* ____UITests.m */,
+				BE0ED7781F454495003EA0F6 /* Info.plist */,
+			);
+			path = "聊天布局UITests";
+			sourceTree = "<group>";
+		};
+		BE0ED78D1F455E29003EA0F6 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				BE0ED78E1F455E29003EA0F6 /* MASCompositeConstraint.h */,
+				BE0ED78F1F455E29003EA0F6 /* MASCompositeConstraint.m */,
+				BE0ED7901F455E29003EA0F6 /* MASConstraint+Private.h */,
+				BE0ED7911F455E29003EA0F6 /* MASConstraint.h */,
+				BE0ED7921F455E29003EA0F6 /* MASConstraint.m */,
+				BE0ED7931F455E29003EA0F6 /* MASConstraintMaker.h */,
+				BE0ED7941F455E29003EA0F6 /* MASConstraintMaker.m */,
+				BE0ED7951F455E29003EA0F6 /* MASLayoutConstraint.h */,
+				BE0ED7961F455E29003EA0F6 /* MASLayoutConstraint.m */,
+				BE0ED7971F455E29003EA0F6 /* Masonry.h */,
+				BE0ED7981F455E29003EA0F6 /* MASUtilities.h */,
+				BE0ED7991F455E29003EA0F6 /* MASViewAttribute.h */,
+				BE0ED79A1F455E29003EA0F6 /* MASViewAttribute.m */,
+				BE0ED79B1F455E29003EA0F6 /* MASViewConstraint.h */,
+				BE0ED79C1F455E29003EA0F6 /* MASViewConstraint.m */,
+				BE0ED79D1F455E29003EA0F6 /* NSArray+MASAdditions.h */,
+				BE0ED79E1F455E29003EA0F6 /* NSArray+MASAdditions.m */,
+				BE0ED79F1F455E29003EA0F6 /* NSArray+MASShorthandAdditions.h */,
+				BE0ED7A01F455E29003EA0F6 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				BE0ED7A11F455E29003EA0F6 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				BE0ED7A21F455E29003EA0F6 /* View+MASAdditions.h */,
+				BE0ED7A31F455E29003EA0F6 /* View+MASAdditions.m */,
+				BE0ED7A41F455E29003EA0F6 /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE0ED74D1F454494003EA0F6 /* 聊天布局 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0ED77B1F454495003EA0F6 /* Build configuration list for PBXNativeTarget "聊天布局" */;
+			buildPhases = (
+				BE0ED74A1F454494003EA0F6 /* Sources */,
+				BE0ED74B1F454494003EA0F6 /* Frameworks */,
+				BE0ED74C1F454494003EA0F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "聊天布局";
+			productName = "聊天布局";
+			productReference = BE0ED74E1F454494003EA0F6 /* 聊天布局.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE0ED7661F454495003EA0F6 /* 聊天布局Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0ED77E1F454495003EA0F6 /* Build configuration list for PBXNativeTarget "聊天布局Tests" */;
+			buildPhases = (
+				BE0ED7631F454495003EA0F6 /* Sources */,
+				BE0ED7641F454495003EA0F6 /* Frameworks */,
+				BE0ED7651F454495003EA0F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0ED7691F454495003EA0F6 /* PBXTargetDependency */,
+			);
+			name = "聊天布局Tests";
+			productName = "聊天布局Tests";
+			productReference = BE0ED7671F454495003EA0F6 /* 聊天布局Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE0ED7711F454495003EA0F6 /* 聊天布局UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0ED7811F454495003EA0F6 /* Build configuration list for PBXNativeTarget "聊天布局UITests" */;
+			buildPhases = (
+				BE0ED76E1F454495003EA0F6 /* Sources */,
+				BE0ED76F1F454495003EA0F6 /* Frameworks */,
+				BE0ED7701F454495003EA0F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0ED7741F454495003EA0F6 /* PBXTargetDependency */,
+			);
+			name = "聊天布局UITests";
+			productName = "聊天布局UITests";
+			productReference = BE0ED7721F454495003EA0F6 /* 聊天布局UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE0ED7461F454494003EA0F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "冷武橘";
+				TargetAttributes = {
+					BE0ED74D1F454494003EA0F6 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					BE0ED7661F454495003EA0F6 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE0ED74D1F454494003EA0F6;
+					};
+					BE0ED7711F454495003EA0F6 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE0ED74D1F454494003EA0F6;
+					};
+				};
+			};
+			buildConfigurationList = BE0ED7491F454494003EA0F6 /* Build configuration list for PBXProject "聊天布局" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE0ED7451F454494003EA0F6;
+			productRefGroup = BE0ED74F1F454494003EA0F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE0ED74D1F454494003EA0F6 /* 聊天布局 */,
+				BE0ED7661F454495003EA0F6 /* 聊天布局Tests */,
+				BE0ED7711F454495003EA0F6 /* 聊天布局UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE0ED74C1F454494003EA0F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0ED7B51F45629C003EA0F6 /* messages.plist in Resources */,
+				BE14D0111F46F2EA00818EBE /* chat_send_press_pic@2x.png in Resources */,
+				BE0ED7611F454494003EA0F6 /* LaunchScreen.storyboard in Resources */,
+				BE0ED75E1F454494003EA0F6 /* Assets.xcassets in Resources */,
+				BE14D0171F47207D00818EBE /* m.png in Resources */,
+				BE0ED75C1F454494003EA0F6 /* Main.storyboard in Resources */,
+				BE14D0151F471F9E00818EBE /* other.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0ED7651F454495003EA0F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0ED7701F454495003EA0F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE0ED74A1F454494003EA0F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0ED7A61F455E29003EA0F6 /* MASConstraint.m in Sources */,
+				BE0ED7A91F455E29003EA0F6 /* MASViewAttribute.m in Sources */,
+				BE0ED7AB1F455E29003EA0F6 /* NSArray+MASAdditions.m in Sources */,
+				BE0ED78B1F455E1F003EA0F6 /* Message.m in Sources */,
+				BE0ED7AA1F455E29003EA0F6 /* MASViewConstraint.m in Sources */,
+				BE0ED7A81F455E29003EA0F6 /* MASLayoutConstraint.m in Sources */,
+				BE0ED7561F454494003EA0F6 /* AppDelegate.m in Sources */,
+				BE0ED7AD1F455E29003EA0F6 /* View+MASAdditions.m in Sources */,
+				BE13F60B1F49CB1D00512099 /* otherCell.m in Sources */,
+				BE13F6081F49CB0A00512099 /* MeCell.m in Sources */,
+				BE0ED7A51F455E29003EA0F6 /* MASCompositeConstraint.m in Sources */,
+				BE0ED7AC1F455E29003EA0F6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				BE0ED7A71F455E29003EA0F6 /* MASConstraintMaker.m in Sources */,
+				BE0ED7861F4544B7003EA0F6 /* ChatviewController.m in Sources */,
+				BE0ED7531F454494003EA0F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0ED7631F454495003EA0F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0ED76C1F454495003EA0F6 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0ED76E1F454495003EA0F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0ED7771F454495003EA0F6 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE0ED7691F454495003EA0F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0ED74D1F454494003EA0F6 /* 聊天布局 */;
+			targetProxy = BE0ED7681F454495003EA0F6 /* PBXContainerItemProxy */;
+		};
+		BE0ED7741F454495003EA0F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0ED74D1F454494003EA0F6 /* 聊天布局 */;
+			targetProxy = BE0ED7731F454495003EA0F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE0ED75A1F454494003EA0F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0ED75B1F454494003EA0F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE0ED75F1F454494003EA0F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0ED7601F454494003EA0F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE0ED7791F454495003EA0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE0ED77A1F454495003EA0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE0ED77C1F454495003EA0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "聊天布局/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE0ED77D1F454495003EA0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "聊天布局/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE0ED77F1F454495003EA0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "聊天布局Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/聊天布局.app/聊天布局";
+			};
+			name = Debug;
+		};
+		BE0ED7801F454495003EA0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "聊天布局Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/聊天布局.app/聊天布局";
+			};
+			name = Release;
+		};
+		BE0ED7821F454495003EA0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "聊天布局UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "聊天布局";
+			};
+			name = Debug;
+		};
+		BE0ED7831F454495003EA0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "聊天布局UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "聊天布局";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE0ED7491F454494003EA0F6 /* Build configuration list for PBXProject "聊天布局" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0ED7791F454495003EA0F6 /* Debug */,
+				BE0ED77A1F454495003EA0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0ED77B1F454495003EA0F6 /* Build configuration list for PBXNativeTarget "聊天布局" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0ED77C1F454495003EA0F6 /* Debug */,
+				BE0ED77D1F454495003EA0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0ED77E1F454495003EA0F6 /* Build configuration list for PBXNativeTarget "聊天布局Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0ED77F1F454495003EA0F6 /* Debug */,
+				BE0ED7801F454495003EA0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0ED7811F454495003EA0F6 /* Build configuration list for PBXNativeTarget "聊天布局UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0ED7821F454495003EA0F6 /* Debug */,
+				BE0ED7831F454495003EA0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE0ED7461F454494003EA0F6 /* Project object */;
+}

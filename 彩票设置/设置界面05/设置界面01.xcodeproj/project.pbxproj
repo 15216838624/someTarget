@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE450CC71F340EE100A80BA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE450CC61F340EE100A80BA0 /* main.m */; };
+		BE450CCA1F340EE100A80BA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE450CC91F340EE100A80BA0 /* AppDelegate.m */; };
+		BE450CD01F340EE100A80BA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE450CCE1F340EE100A80BA0 /* Main.storyboard */; };
+		BE450CD21F340EE100A80BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE450CD11F340EE100A80BA0 /* Assets.xcassets */; };
+		BE450CD51F340EE100A80BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE450CD31F340EE100A80BA0 /* LaunchScreen.storyboard */; };
+		BE450CE01F340EE100A80BA0 /* ____01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE450CDF1F340EE100A80BA0 /* ____01Tests.m */; };
+		BE450CEB1F340EE100A80BA0 /* ____01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE450CEA1F340EE100A80BA0 /* ____01UITests.m */; };
+		BE450CFA1F340F7300A80BA0 /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE450CF91F340F7300A80BA0 /* SettingController.m */; };
+		BE450CFD1F3417E800A80BA0 /* Settingitem.m in Sources */ = {isa = PBXBuildFile; fileRef = BE450CFC1F3417E800A80BA0 /* Settingitem.m */; };
+		BE450D001F34218600A80BA0 /* SettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = BE450CFF1F34218600A80BA0 /* SettingGroup.m */; };
+		BE450D061F346D5F00A80BA0 /* SettingArrowitem.m in Sources */ = {isa = PBXBuildFile; fileRef = BE450D051F346D5F00A80BA0 /* SettingArrowitem.m */; };
+		BE450D091F346E7C00A80BA0 /* SettingSwitchitem.m in Sources */ = {isa = PBXBuildFile; fileRef = BE450D081F346E7C00A80BA0 /* SettingSwitchitem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE450CDC1F340EE100A80BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE450CBA1F340EE100A80BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE450CC11F340EE100A80BA0;
+			remoteInfo = "设置界面01";
+		};
+		BE450CE71F340EE100A80BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE450CBA1F340EE100A80BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE450CC11F340EE100A80BA0;
+			remoteInfo = "设置界面01";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE450CC21F340EE100A80BA0 /* 设置界面01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "设置界面01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE450CC61F340EE100A80BA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE450CC81F340EE100A80BA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE450CC91F340EE100A80BA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE450CCF1F340EE100A80BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE450CD11F340EE100A80BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE450CD41F340EE100A80BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE450CD61F340EE100A80BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE450CDB1F340EE100A80BA0 /* 设置界面01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "设置界面01Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE450CDF1F340EE100A80BA0 /* ____01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____01Tests.m"; sourceTree = "<group>"; };
+		BE450CE11F340EE100A80BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE450CE61F340EE100A80BA0 /* 设置界面01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "设置界面01UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE450CEA1F340EE100A80BA0 /* ____01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____01UITests.m"; sourceTree = "<group>"; };
+		BE450CEC1F340EE100A80BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE450CF81F340F7300A80BA0 /* SettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingController.h; sourceTree = "<group>"; };
+		BE450CF91F340F7300A80BA0 /* SettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingController.m; sourceTree = "<group>"; };
+		BE450CFB1F3417E800A80BA0 /* Settingitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settingitem.h; sourceTree = "<group>"; };
+		BE450CFC1F3417E800A80BA0 /* Settingitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settingitem.m; sourceTree = "<group>"; };
+		BE450CFE1F34218600A80BA0 /* SettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingGroup.h; sourceTree = "<group>"; };
+		BE450CFF1F34218600A80BA0 /* SettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingGroup.m; sourceTree = "<group>"; };
+		BE450D041F346D5F00A80BA0 /* SettingArrowitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingArrowitem.h; sourceTree = "<group>"; };
+		BE450D051F346D5F00A80BA0 /* SettingArrowitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingArrowitem.m; sourceTree = "<group>"; };
+		BE450D071F346E7C00A80BA0 /* SettingSwitchitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingSwitchitem.h; sourceTree = "<group>"; };
+		BE450D081F346E7C00A80BA0 /* SettingSwitchitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingSwitchitem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE450CBF1F340EE100A80BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE450CD81F340EE100A80BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE450CE31F340EE100A80BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE450CB91F340EE100A80BA0 = {
+			isa = PBXGroup;
+			children = (
+				BE450CC41F340EE100A80BA0 /* 设置界面01 */,
+				BE450CDE1F340EE100A80BA0 /* 设置界面01Tests */,
+				BE450CE91F340EE100A80BA0 /* 设置界面01UITests */,
+				BE450CC31F340EE100A80BA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE450CC31F340EE100A80BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE450CC21F340EE100A80BA0 /* 设置界面01.app */,
+				BE450CDB1F340EE100A80BA0 /* 设置界面01Tests.xctest */,
+				BE450CE61F340EE100A80BA0 /* 设置界面01UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE450CC41F340EE100A80BA0 /* 设置界面01 */ = {
+			isa = PBXGroup;
+			children = (
+				BE450CC81F340EE100A80BA0 /* AppDelegate.h */,
+				BE450CC91F340EE100A80BA0 /* AppDelegate.m */,
+				BE450CF81F340F7300A80BA0 /* SettingController.h */,
+				BE450CF91F340F7300A80BA0 /* SettingController.m */,
+				BE450CFB1F3417E800A80BA0 /* Settingitem.h */,
+				BE450CFC1F3417E800A80BA0 /* Settingitem.m */,
+				BE450D041F346D5F00A80BA0 /* SettingArrowitem.h */,
+				BE450D051F346D5F00A80BA0 /* SettingArrowitem.m */,
+				BE450CFE1F34218600A80BA0 /* SettingGroup.h */,
+				BE450CFF1F34218600A80BA0 /* SettingGroup.m */,
+				BE450D071F346E7C00A80BA0 /* SettingSwitchitem.h */,
+				BE450D081F346E7C00A80BA0 /* SettingSwitchitem.m */,
+				BE450CCE1F340EE100A80BA0 /* Main.storyboard */,
+				BE450CD11F340EE100A80BA0 /* Assets.xcassets */,
+				BE450CD31F340EE100A80BA0 /* LaunchScreen.storyboard */,
+				BE450CD61F340EE100A80BA0 /* Info.plist */,
+				BE450CC51F340EE100A80BA0 /* Supporting Files */,
+			);
+			path = "设置界面01";
+			sourceTree = "<group>";
+		};
+		BE450CC51F340EE100A80BA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE450CC61F340EE100A80BA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE450CDE1F340EE100A80BA0 /* 设置界面01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BE450CDF1F340EE100A80BA0 /* ____01Tests.m */,
+				BE450CE11F340EE100A80BA0 /* Info.plist */,
+			);
+			path = "设置界面01Tests";
+			sourceTree = "<group>";
+		};
+		BE450CE91F340EE100A80BA0 /* 设置界面01UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE450CEA1F340EE100A80BA0 /* ____01UITests.m */,
+				BE450CEC1F340EE100A80BA0 /* Info.plist */,
+			);
+			path = "设置界面01UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE450CC11F340EE100A80BA0 /* 设置界面01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE450CEF1F340EE100A80BA0 /* Build configuration list for PBXNativeTarget "设置界面01" */;
+			buildPhases = (
+				BE450CBE1F340EE100A80BA0 /* Sources */,
+				BE450CBF1F340EE100A80BA0 /* Frameworks */,
+				BE450CC01F340EE100A80BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "设置界面01";
+			productName = "设置界面01";
+			productReference = BE450CC21F340EE100A80BA0 /* 设置界面01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE450CDA1F340EE100A80BA0 /* 设置界面01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE450CF21F340EE100A80BA0 /* Build configuration list for PBXNativeTarget "设置界面01Tests" */;
+			buildPhases = (
+				BE450CD71F340EE100A80BA0 /* Sources */,
+				BE450CD81F340EE100A80BA0 /* Frameworks */,
+				BE450CD91F340EE100A80BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE450CDD1F340EE100A80BA0 /* PBXTargetDependency */,
+			);
+			name = "设置界面01Tests";
+			productName = "设置界面01Tests";
+			productReference = BE450CDB1F340EE100A80BA0 /* 设置界面01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE450CE51F340EE100A80BA0 /* 设置界面01UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE450CF51F340EE100A80BA0 /* Build configuration list for PBXNativeTarget "设置界面01UITests" */;
+			buildPhases = (
+				BE450CE21F340EE100A80BA0 /* Sources */,
+				BE450CE31F340EE100A80BA0 /* Frameworks */,
+				BE450CE41F340EE100A80BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE450CE81F340EE100A80BA0 /* PBXTargetDependency */,
+			);
+			name = "设置界面01UITests";
+			productName = "设置界面01UITests";
+			productReference = BE450CE61F340EE100A80BA0 /* 设置界面01UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE450CBA1F340EE100A80BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "冷武橘";
+				TargetAttributes = {
+					BE450CC11F340EE100A80BA0 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					BE450CDA1F340EE100A80BA0 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE450CC11F340EE100A80BA0;
+					};
+					BE450CE51F340EE100A80BA0 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE450CC11F340EE100A80BA0;
+					};
+				};
+			};
+			buildConfigurationList = BE450CBD1F340EE100A80BA0 /* Build configuration list for PBXProject "设置界面01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE450CB91F340EE100A80BA0;
+			productRefGroup = BE450CC31F340EE100A80BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE450CC11F340EE100A80BA0 /* 设置界面01 */,
+				BE450CDA1F340EE100A80BA0 /* 设置界面01Tests */,
+				BE450CE51F340EE100A80BA0 /* 设置界面01UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE450CC01F340EE100A80BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE450CD51F340EE100A80BA0 /* LaunchScreen.storyboard in Resources */,
+				BE450CD21F340EE100A80BA0 /* Assets.xcassets in Resources */,
+				BE450CD01F340EE100A80BA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE450CD91F340EE100A80BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE450CE41F340EE100A80BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE450CBE1F340EE100A80BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE450D091F346E7C00A80BA0 /* SettingSwitchitem.m in Sources */,
+				BE450CCA1F340EE100A80BA0 /* AppDelegate.m in Sources */,
+				BE450CFD1F3417E800A80BA0 /* Settingitem.m in Sources */,
+				BE450CFA1F340F7300A80BA0 /* SettingController.m in Sources */,
+				BE450CC71F340EE100A80BA0 /* main.m in Sources */,
+				BE450D001F34218600A80BA0 /* SettingGroup.m in Sources */,
+				BE450D061F346D5F00A80BA0 /* SettingArrowitem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE450CD71F340EE100A80BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE450CE01F340EE100A80BA0 /* ____01Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE450CE21F340EE100A80BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE450CEB1F340EE100A80BA0 /* ____01UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE450CDD1F340EE100A80BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE450CC11F340EE100A80BA0 /* 设置界面01 */;
+			targetProxy = BE450CDC1F340EE100A80BA0 /* PBXContainerItemProxy */;
+		};
+		BE450CE81F340EE100A80BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE450CC11F340EE100A80BA0 /* 设置界面01 */;
+			targetProxy = BE450CE71F340EE100A80BA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE450CCE1F340EE100A80BA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE450CCF1F340EE100A80BA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE450CD31F340EE100A80BA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE450CD41F340EE100A80BA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE450CED1F340EE100A80BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE450CEE1F340EE100A80BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE450CF01F340EE100A80BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "设置界面01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.----01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE450CF11F340EE100A80BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "设置界面01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.----01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE450CF31F340EE100A80BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "设置界面01Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.----01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/设置界面01.app/设置界面01";
+			};
+			name = Debug;
+		};
+		BE450CF41F340EE100A80BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "设置界面01Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.----01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/设置界面01.app/设置界面01";
+			};
+			name = Release;
+		};
+		BE450CF61F340EE100A80BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "设置界面01UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.----01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "设置界面01";
+			};
+			name = Debug;
+		};
+		BE450CF71F340EE100A80BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "设置界面01UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.----01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "设置界面01";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE450CBD1F340EE100A80BA0 /* Build configuration list for PBXProject "设置界面01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE450CED1F340EE100A80BA0 /* Debug */,
+				BE450CEE1F340EE100A80BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE450CEF1F340EE100A80BA0 /* Build configuration list for PBXNativeTarget "设置界面01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE450CF01F340EE100A80BA0 /* Debug */,
+				BE450CF11F340EE100A80BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE450CF21F340EE100A80BA0 /* Build configuration list for PBXNativeTarget "设置界面01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE450CF31F340EE100A80BA0 /* Debug */,
+				BE450CF41F340EE100A80BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE450CF51F340EE100A80BA0 /* Build configuration list for PBXNativeTarget "设置界面01UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE450CF61F340EE100A80BA0 /* Debug */,
+				BE450CF71F340EE100A80BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE450CBA1F340EE100A80BA0 /* Project object */;
+}

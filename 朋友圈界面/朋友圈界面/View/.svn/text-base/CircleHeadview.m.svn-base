@@ -1,0 +1,83 @@
+//
+//  CircleHeadview.m
+//  EHR
+//
+//  Created by 冷武橘 on 2017/6/6.
+//  Copyright © 2017年 v2. All rights reserved.
+//
+
+#import "CircleHeadview.h"
+@interface CircleHeadview()
+@property(nonatomic,strong)UIImageView *headimageview;
+@property(nonatomic,strong)UILabel *name;
+@property(nonatomic,strong)UIButton *Previousbutton;
+@end
+@implementation CircleHeadview
+//便利构造法
++(instancetype) Header{
+    
+    
+    return [[self alloc]init];
+    
+}
+//重写初始化方法
+-(instancetype)initWithFrame:(CGRect)frame{
+    if (self=[super initWithFrame:frame]){
+        self.headimageview=[[UIImageView alloc]init];
+        self.headimageview.backgroundColor=[UIColor grayColor];
+        [self addSubview:self.headimageview];
+        [self.headimageview mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.width.height.equalTo(@60);
+            make.left.equalTo(self).offset(10);
+            make.centerY.equalTo(self);
+        }];
+        self.name=[[UILabel alloc]init];
+        self.name.text=@"张三";
+//        self.name.backgroundColor=[UIColor grayColor];
+        [self addSubview:self.name];
+        [self.name mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.width.equalTo(@100);
+            make.left.equalTo(self.headimageview.mas_right).offset(10);
+            make.centerY.equalTo(self);
+        }];
+        CGFloat width= (ScreenFullWidth-80-50)/5;
+        for (int i=0; i<5; i++) {
+            UIButton *btn=[[UIButton alloc]init];
+            btn.titleLabel.font=kFont(13);
+            [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+//            btn.backgroundColor=[UIColor grayColor];
+            [btn setTitle:@"标签1" forState:UIControlStateNormal];
+            btn.layer.borderColor=[UIColor blueColor].CGColor;
+            btn.layer.borderWidth=1;
+            btn.layer.cornerRadius=3;
+            [self addSubview:btn];
+            [btn mas_makeConstraints:^(MASConstraintMaker *make) {
+                make.width.mas_equalTo(width);
+                make.height.equalTo(@30);
+                make.bottom.equalTo(self);
+                
+            }];
+            if (i>0) {
+                [btn mas_updateConstraints:^(MASConstraintMaker *make) {
+                make.left.equalTo(self.Previousbutton.mas_right).offset(10);
+
+                }];
+            }else{
+                [btn mas_makeConstraints:^(MASConstraintMaker *make) {
+                    make.left.equalTo(self).offset(80);
+                    
+                }];
+            }
+             self.Previousbutton=btn;
+            }
+      
+        
+        
+        
+        
+    }
+    return  self;
+}
+
+
+@end
